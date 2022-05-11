@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<style>
+body{
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right, blue , skyblue , blue);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to right, blue , skyblue , blue);
+}
+.bottom{
+	background: rgba(255,255,255,0.6);
+	border-bottom: 1px solid silver;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	color:blue;
+}
+#Search{
+	border:1px solid black;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 15px;
+	float: right;
+	margin-right: 50px;
+}
+#Sub{
+	color: gray;
+	float: right;
+	margin-right: 10px;
+	margin-top: 15px;
+	font-weight: lighter;
+	font-size: 20px;
+}
+</style>
+<style type="text/css">
+	.Appcontainer{
+		width:300px;
+		height: 100px;
+		border-radius: 10px;
+		border:1px solid black;
+		margin-left: 20px;
+		margin-top: 20px;
+		padding: 10px 10px 10px 10px; text-decoration: none;
+	}
+	.Appcontainer2{
+		width:300px;
+		height: 100px;
+		border-radius: 10px;
+		border:1px solid black;
+		margin-left: 360px;
+		margin-top: -123px;
+		padding: 10px 10px 10px 10px; text-decoration: none;
+	}
+		.Appcontainer3{
+		width:300px;
+		height: 100px;
+		border-radius: 10px;
+		border:1px solid black;
+		margin-left: 700px;
+		margin-top: -123px;
+		padding: 10px 10px 10px 10px; text-decoration: none;
+	}
+	#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; text-decoration: none;
+}
+a{text-decoration:none;}
+li{color: transparent; text-decoration: none;}
+#IMG{width:50px;height: 50px;border-radius: 10px; border:1px solid black;}
+#Down{background-image: linear-gradient(#99ccff, #1a8cff); padding: 2px 8px 2px 8px; height:20px; width: 40px; border-radius: 10px; border:1px solid gray; color: white; float: right; margin-right: 5px; margin-top: -90px;}
+</style>
+</head>   
+
+<body>
+
+<h1 style="color: transparent;margin-top: 10px;">.</h1>
+<div class="bottom">
+
+<input type="text" id="Search" onkeyup="myFunction()" placeholder="Search Apps">
+<a id="Sub" class="fa fa-search"></a>
+</form>
+</div>
+
+<ul id="myUL">
+	<li><a href="#"><div class="Appcontainer">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="#" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer2">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer3">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="#" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer2">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer3">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="#" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer2">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer3">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="#" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer2">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer3">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="#" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer2">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer3">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="#" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer2">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+	<li><a href="#"><div class="Appcontainer3">
+		<img src="icn/" id="IMG">
+		<h3 style="font-weight: lighter; color:black; text-decoration: none; margin-top: -50px; margin-left: 70px;">APP</h3>
+		<h5 style="font-weight: lighter; color:black; text-decoration: none;">APP</h5>	
+		<a href="TRY.hta" id="Down">Install</a>	
+	</div></a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("Search");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
